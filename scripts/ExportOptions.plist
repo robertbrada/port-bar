@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Developer ID, not App Store: PortBar cannot be sandboxed, so it can
+         never ship through the Mac App Store. See README. -->
+    <key>method</key>
+    <string>developer-id</string>
+
+    <key>teamID</key>
+    <string>GMGW3DYJY8</string>
+
+    <key>signingStyle</key>
+    <string>automatic</string>
+
+    <!-- Export to disk only. Notarisation is done afterwards by notarytool,
+         which is the supported path; letting Xcode upload here uses the
+         retired altool service. -->
+    <key>destination</key>
+    <string>export</string>
+
+    <!-- The build has no bitcode and no symbols worth uploading for a
+         locally-distributed app. -->
+    <key>uploadSymbols</key>
+    <false/>
+</dict>
+</plist>

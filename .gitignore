@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.hmap
+*.moved-aside
+build/
+DerivedData/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Distribution artefacts
+*.ipa
+*.dSYM.zip
+*.dmg
+
+# Never commit signing material or secrets
+*.p12
+*.cer
+*.pem
+*.mobileprovision
+*.p8
+.env
+.env.*

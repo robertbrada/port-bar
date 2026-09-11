@@ -1,0 +1,50 @@
+PortBar
+Copyright (c) 2026 Robert Brada
+Licensed under the MIT License. See LICENSE.
+
+================================================================================
+Third-party assets
+================================================================================
+
+Simple Icons
+------------
+
+PortBar bundles 70 brand glyphs in PortBar/Assets.xcassets/TechIcons, each a
+single-path 24x24 SVG taken unmodified from the Simple Icons project.
+
+    Source:  https://simpleicons.org
+    Repo:    https://github.com/simple-icons/simple-icons
+    License: CC0 1.0 Universal (public domain dedication)
+             https://creativecommons.org/publicdomain/zero/1.0/
+
+The CC0 dedication covers the SVG artwork only. It does not grant any rights in
+the trademarks the artwork depicts.
+
+Trademark notice
+----------------
+
+The logos bundled here remain the trademarks of their respective owners. They
+are used solely to identify, within PortBar's own interface, which technology is
+listening on a given port. This is nominative use, the same convention every
+code editor's file-icon theme relies on.
+
+Their inclusion implies no affiliation with, sponsorship by, or endorsement from
+any of the projects, companies, or foundations concerned. No claim of ownership
+is made over any of these marks.
+
+Brands depicted: Android, Angular, Apache Kafka, Apache Maven, Astro, Bun,
+Caddy, Cloudflare, Dart, Deno, Django, Docker, .NET, Elasticsearch, Elixir,
+Erlang, Expo, FastAPI, Firebase, Flask, Flutter, Go, Gradle, Grafana, Gunicorn,
+Jupyter, Keycloak, Laravel, MariaDB, Meilisearch, MinIO, MongoDB, MySQL, n8n,
+Next.js, NGINX, ngrok, Node.js, Nuxt, Nx, Ollama, OpenJDK, PHP, PM2, Podman,
+PostgreSQL, Prometheus, Python, QEMU, RabbitMQ, React, Redis, Remix, Ruby,
+Ruby on Rails, Rust, Spring, SQLite, Storybook, Strapi, Streamlit, Supabase,
+Svelte, Swift, Tailscale, Temporal, Vite, Vitest, Vue.js, Webpack.
+
+If you own one of these marks and would prefer it not be used here, open an
+issue and it will be removed.
+
+================================================================================
+
+PortBar itself has no code dependencies. Nothing else in this repository is
+third-party.
